@@ -384,6 +384,13 @@
 		87DF05281BCE302F0060E2C2 /* OEDCSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF05151BCE302F0060E2C2 /* OEDCSystemController.m */; };
 		87DF05291BCE302F0060E2C2 /* OEDCSystemResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DF05171BCE302F0060E2C2 /* OEDCSystemResponder.m */; };
 		87DF05411BCE3CEA0060E2C2 /* Dreamcast.oesystemplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87DF04FE1BCE2D100060E2C2 /* Dreamcast.oesystemplugin */; };
+		A11C0DE32EA0000000000001 /* Dreamcast.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 87DF04FE1BCE2D100060E2C2 /* Dreamcast.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000004 /* 3DO.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 943F99B31707DF3700270E89 /* 3DO.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000005 /* Atari 8bit.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 87FBC08E1C0790B400AECF5A /* Atari 8bit.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000006 /* MSX.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = FEB6625B187B791800D14713 /* MSX.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000007 /* Jaguar.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 943C80121708A62E00D8D93E /* Jaguar.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000008 /* Pokemon mini.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 081A46261B95744A00565444 /* Pokemon mini.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11C0DE32EA0000000000009 /* Supervision.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 837964E11A6149C000A8DE5C /* Supervision.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87F077B423B68D02001FFC9B /* GameCube.oesystemplugin in Copy System Plugins to App Plugins */ = {isa = PBXBuildFile; fileRef = 94CEB26D17A84809005A2107 /* GameCube.oesystemplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87FB253B1BBC572E00E739CE /* Controller-Preferences-JAP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87FB25391BBC572E00E739CE /* Controller-Preferences-JAP.plist */; };
 		87FB253C1BBC572E00E739CE /* Controller-Preferences-NA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87FB253A1BBC572E00E739CE /* Controller-Preferences-NA.plist */; };
@@ -1211,6 +1218,13 @@
 			dstPath = Systems;
 			dstSubfolderSpec = 13;
 			files = (
+				A11C0DE32EA0000000000001 /* Dreamcast.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000004 /* 3DO.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000005 /* Atari 8bit.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000006 /* MSX.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000007 /* Jaguar.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000008 /* Pokemon mini.oesystemplugin in Copy System Plugins to App Plugins */,
+				A11C0DE32EA0000000000009 /* Supervision.oesystemplugin in Copy System Plugins to App Plugins */,
 				87F077B423B68D02001FFC9B /* GameCube.oesystemplugin in Copy System Plugins to App Plugins */,
 				873A36421FE233E00004D81D /* Saturn.oesystemplugin in Copy System Plugins to App Plugins */,
 				87BD9E331C2A679B006722DF /* WonderSwan.oesystemplugin in Copy System Plugins to App Plugins */,
